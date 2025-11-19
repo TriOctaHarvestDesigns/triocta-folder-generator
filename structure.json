@@ -1,0 +1,60 @@
+{
+  "root": "000 DesktopLayer 001 - Rename",
+  "folders": {
+    "Audio": {},
+    "Images": {
+      "folders": {
+        "PNG": {},
+        "JPG": {},
+        "GIF": {}
+      }
+    },
+    "Notes": {},
+    "Recordings": {},
+    "Reference": {},
+    "Save": {
+      "folders": {
+        "PDF": {},
+        "Screenshots": {},
+        "TO SORT": {}
+      }
+    },
+    "Video": {
+      "folders": {
+        "MP4": {},
+        "MOV": {},
+        "WMA": {}
+      }
+    },
+    "Projects": {
+      "folders": {
+        "Project_001": {
+          "folders": {
+            "P001 - Audio": {},
+            "P001 - Images": {},
+            "P001 - Notes": {},
+            "P001 - Recordings": {},
+            "P001 - Reference": {},
+            "P001 - Save": {},
+            "P001 - Video": {}
+          }
+        }
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "README.md",
+      "content": "# Tri-Octa Harvest Designs\n\nThis directory structure was generated using **create_structureMain.py (v1.0)**.\n\n## Purpose\nThis workspace acts as a universal modular desktop layer for creative professionals.\n\n- Each primary folder (Audio, Images, Notes, etc.) reflects a media domain.\n- 'Projects' contains repeatable substructures for multi-project workflow management.\n- The script can dynamically create additional projects upon request.\n\n## Edit Instructions\nTo customize:\n1. Edit this JSON file.\n2. Adjust or add folders.\n3. Save as `structure_custom.json` or any new name.\n4. Run the Python script and enter your chosen JSON filename when prompted.\n\nEnjoy your optimized creative ecosystem!"
+    },
+    {
+      "name": ".gitignore",
+      "content": "# Ignore temporary or system files\n*.tmp\n*.log\n.DS_Store\n__pycache__/"
+    }
+  ],
+  "meta": {
+    "version": "1.0.0",
+    "template_author": "Tri-Octa Harvest Designs",
+    "description": "Default modular creative workspace template for universal project layering."
+  }
+}
